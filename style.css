@@ -1,15 +1,54 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-    background: linear-gradient(to right,darkblue,purple, cyan);
-}
-#heading  {
-    font-size: 80px;
-    font-family: 'Rubik Vinyl', cursive;
-    color: white;
-    text-align: center;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+      background: linear-gradient(to right,darkblue,purple, cyan);
+  }
+  #heading  {
+      font-size: 80px;
+      font-family: 'Rubik Vinyl', cursive;
+      color: white;
+      text-align: center;
+      letter-spacing: 3px;
+  }
+  main{
+      align-content: center;
+      
+  }
+  .paths{
+      width: 80%;
+      height: 245px;
+      background-color: rgba(255, 255, 255, 0.315);
+      margin-left: 10%;
+      margin-right: 10%;
+      border-radius: 4px;
+      box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  .path-photo {
+      height: 25%;
+      padding: 5px;
+      width: 25%;
+      height: 225px;
+      float: left;
+      display: block;
+      text-align: left;
+  }
+  h3{
+    font-size: 32px;
+    color: #F4A460;
+  }
+  p{
+color: white;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
